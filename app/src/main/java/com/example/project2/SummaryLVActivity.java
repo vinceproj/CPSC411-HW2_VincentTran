@@ -122,7 +122,6 @@ public class SummaryLVActivity extends AppCompatActivity {
                             String tempGrade = et_Grade.getText().toString();
                             courseList.add(new CourseEnrollment(tempCWID, tempGrade));
                             s.setCourseList(courseList);
-                            Toast.makeText(SummaryLVActivity.this, courseList.get(0).getCourseID(), Toast.LENGTH_SHORT).show();
                             break;
                         case 2:
                             et_CWID = findViewById(R.id.s_new_CWIDOne_id);
